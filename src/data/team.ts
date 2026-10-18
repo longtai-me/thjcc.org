@@ -37,6 +37,7 @@ export type TeamMember = {
   featured?: boolean;
   decoration?: "left" | "right" | "denny" | "jonah" | "justin" | "twcat";
   largeRole?: boolean;
+  roundAvatar?: boolean;
 };
 
 // Group and position control the directory badges.
@@ -151,7 +152,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: "凡", name: "凡", image: "https://casperlin100w.github.io/image/sidebar/avatar.jpg",
-    group: "administration", position: "member",
+    group: "administration", position: "member", roundAvatar: true,
     bio: ["聽說這邊需要文書所以我來了，人家是資安小白我是白到反光o(TヘTo)"],
     socialLinks: [
       { label: "Instagram", href: "https://instagram.com/llf._.meow" },

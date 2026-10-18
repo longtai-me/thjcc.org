@@ -669,6 +669,11 @@
   height: 100%;
 }
 
+.team-avatar--round > img:first-child {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .team-avatar--placeholder {
   display: grid;
   place-items: center;
