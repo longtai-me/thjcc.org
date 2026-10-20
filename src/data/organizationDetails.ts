@@ -71,4 +71,14 @@ export const organizationDetails: Record<Organization["id"], OrganizationDetails
     highlights: ["VPS 與雲端主機", "網路基礎設施服務", "技術支援與客製化開發"],
     website: "https://ncse.tw/zh/",
   },
+  longtai: {
+    shortName: "longtai.me",
+    category: "合作單位",
+    paragraphs: [
+      "longtai.me 贊助了本次活動，但由於還沒想好要打什麼，所以等之後再來看看吧！",
+      "我真的不知道要打什麼，但他們的Code看起來是要打這一行，所以你又多看了一段廢話。longtai.me 是本屆 THJCC 的合作單位。",
+    ],
+    highlights: ["這是我的第一個highlights", "然後這是第二個highlights", "啊這是第三個highlights"],
+    website: "https://longtai.me/",
+  },
 };
