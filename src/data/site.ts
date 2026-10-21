@@ -43,7 +43,7 @@ export const aboutParagraphs = [
 export const aboutCopy = aboutParagraphs.join("");
 
 export type Organization = {
-  id: "scint" | "scaict" | "scist" | "hitcon" | "ocf" | "ncse";
+  id: "scint" | "scaict" | "scist" | "hitcon" | "ocf" | "ncse" | "longtai";
   name: string;
   corner: "left" | "middle" | "right" | "round";
 };
@@ -60,5 +60,6 @@ export const coorganizers: Organization[] = [
 ];
 
 export const partners: Organization[] = [
-  { id: "ncse", name: "NCSE Network", corner: "round" },
+  { id: "ncse", name: "NCSE Network", corner: "left" },
+  { id: "longtai", name: "longtai.me", corner: "right" },
 ];
